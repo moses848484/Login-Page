@@ -68,10 +68,10 @@
 /*email holder styling*/
 
 .user_email_address {
-    width: 165px;
+    width: 265px;
     padding: 5.5px;
     padding-right: 0px;
-    padding-left: 100px;
+    padding-left: 0px;
     margin-bottom: 10px;
     margin-top: 6px;
     margin-left: -49px;
@@ -83,10 +83,10 @@
 /*password holder styling*/
 
 .user_password {
-    width: 165px;
+    width: 265px;
     padding: 5.5px;
     padding-right: 0px;
-    padding-left: 100px;
+    padding-left: 0px;
     margin-bottom: -10px;
     margin-top: 6px;
     margin-left: -49px;
