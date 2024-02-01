@@ -1,0 +1,133 @@
+    /*page layout styling*/
+
+    body {
+        background-image: url('./Background.jpg');
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh; 
+        
+      }
+
+/*form styling*/
+
+      form {
+       background-color: #e8ecf3;
+       padding-left: 60px;
+       padding-right: 60px;
+       padding-top: 20px;
+       padding-bottom: 40px;
+       margin-right: -3px;
+       width: 170px;  
+       margin-top: -20.8px;
+       border-radius: 1px; 
+       border: 8px solid #2a79f9; /*left border styling*/
+       border-right: 0px;
+       border-bottom: 0px;
+       border-top: 0px;
+     
+    }
+
+/*Submitting button styles*/
+
+.submitbtn {
+    margin-left: 82px;
+   margin-top: 20px;
+   color: white;
+    background-color: #2a79f9;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-size: 10px;
+    text-align: center;
+    width: 135px;
+    height: 30px; 
+    align-items: center;
+    text-align: center;
+}
+
+.bi-arrow-right-circle {
+         -webkit-text-stroke: 0.6px;
+         display: flex;
+         margin-left: 166px;
+         color: white;
+         margin-top: -19.8px;
+         margin-bottom: -1px;
+         font-size: 9px;
+}
+
+/*submit button extra styling*/
+
+.submitbtn:hover {
+    background-color: rgb(21, 73, 228);
+}
+
+/*email holder styling*/
+
+.user_email_address {
+    width: 265px;
+    padding: 5.5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    margin-left: -49px;
+    border: 1.5px solid rgba(90, 88, 88, 0.273);
+    border-radius: 3px;
+    background-color: white; 
+}
+
+/*password holder styling*/
+
+.user_password {
+    width: 265px;
+    padding: 5.5px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: -10px;
+    margin-top: 6px;
+    margin-left: -49px;
+    border: 1.5px solid rgba(90, 88, 88, 0.273);
+    border-radius: 3px;
+    background-color: white; 
+}
+
+/*email text styling*/
+
+.email_text {
+    margin-left: -29%;
+    margin-bottom: 3%;
+    color: #343536;
+    font-size: small;
+}
+
+/*password text styling*/
+
+.password_text {
+    margin-left: -29%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    color: #343536;
+    font-size: small;       
+}
+
+/*brings form on top*/
+
+.form_swap {
+    z-index: 2;
+  }
+
+/*login style*/
+
+.login_word_on_form {
+margin-bottom: 10px;
+margin-top: -12px;
+margin-left: -4%;
+color: #2a79f9;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+}
+
